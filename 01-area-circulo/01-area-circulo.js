@@ -21,7 +21,7 @@ function calcular() {
     const area = Math.PI * radio * radio;
 
     // Mostrar el resultado en la página.
-    cajaResultado.innerHTML = "El área del círculo es: <b>" + area.toFixed(2) + "</b>";
+    cajaResultado.innerHTML = "El área del círculo es: <b>" + area + "</b>";
 }
 
 // Cada vez que se escribe en el input del radio, se vuelve a calcular.
